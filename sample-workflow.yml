@@ -1,0 +1,14 @@
+name: Generate the set of tag pages.
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-tag-pages:
+    name: Generate the set of tag pages.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hendrixjoseph/jekyll-tag-page-generator-action@master
+        with:
+          source: "/home/z0/cbd-info/_data/tags.json"
+          destination: "/home/z0/cbd-info/tags/"

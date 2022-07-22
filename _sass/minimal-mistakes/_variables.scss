@@ -29,9 +29,9 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
-$caption-font-family: $serif !default;
+$global-font-family: $monospace !default;
+$header-font-family: $monospace !default;
+$caption-font-family: $monospace !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
@@ -149,15 +149,16 @@ $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
+$xx-large: 1440px !default;
 $max-width: $x-large !default;
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 0px !default;
+$right-sidebar-width: 0px !default;
+$right-sidebar-width-wide: 0px !default;
 
 /*
    Other

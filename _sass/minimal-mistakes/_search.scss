@@ -21,7 +21,7 @@
   transition: 0.2s;
 
   &:hover {
-    color: mix(#000, $primary-color, 25%);
+    color: mix(#fff, $link-color, 25%);
   }
 }
 
@@ -47,9 +47,9 @@
     -webkit-animation-delay: 0.15s;
     animation-delay: 0.15s;
 
-    @include breakpoint($x-large) {
-      max-width: $max-width;
-    }
+   /// @include breakpoint($x-large) {
+   ///   max-width: $max-width;
+   /// }
 
   }
 
@@ -95,11 +95,11 @@
     margin-bottom: 2em;
 
     @include breakpoint($large) {
-      width: 75%;
+      width: 100%;
     }
 
     @include breakpoint($x-large) {
-      width: 50%;
+      width: 100%;
     }
   }
 
